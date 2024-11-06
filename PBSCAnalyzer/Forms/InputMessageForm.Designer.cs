@@ -80,7 +80,7 @@
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(120, 17);
             this.checkBox2.TabIndex = 4;
-            this.checkBox2.Text = "Close all documetns";
+            this.checkBox2.Text = "Close all Documents";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // InputMessageForm

@@ -179,7 +179,7 @@ namespace PBSCAnalyzer
       
         private void reloadOpenedFilesToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Reload opened documents?", "Reload Documetns", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            if (MessageBox.Show("Reload opened documents?", "Reload Documents", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 MainEngine.Instance.ReloadAllDocuments();
             }
@@ -192,7 +192,7 @@ namespace PBSCAnalyzer
 
         private void closeAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Close all documents?", "Close Documents", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            if (MessageBox.Show("Close all Documents?", "Close Documents", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 MainEngine.Instance.CloseAllDocuments();
                 MainEngine.Instance.OpenedDocumentsPanel.RefreshOpenedDocumentsList();
